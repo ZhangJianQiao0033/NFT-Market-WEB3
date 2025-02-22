@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "D",
+  title: "Deep_NFT",
   description: "Explore and create unique NFTs with DeepNFT",
 };
 
