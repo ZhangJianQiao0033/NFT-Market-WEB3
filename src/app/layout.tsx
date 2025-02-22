@@ -17,11 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DeepNFT",
+  title: "D",
   description: "Explore and create unique NFTs with DeepNFT",
-  icons: {
-    icon: "/public/ethereum.png"
-  },
 };
 
 export default function RootLayout({
