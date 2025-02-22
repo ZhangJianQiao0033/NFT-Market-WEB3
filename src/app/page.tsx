@@ -39,7 +39,7 @@ export default function Home() {
         setNfts(sortedNfts.sort((a, b) => b.price - a.price));
         break;
       case "Recently added":
-        setNfts(sortedNfts.sort((a, b) => a.tokenId - b.tokenId));
+        setNfts(sortedNfts.sort((a, b) => b.tokenId - a.tokenId));
         break;
       default:
         setNfts(nfts);
